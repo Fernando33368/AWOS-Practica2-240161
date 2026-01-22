@@ -1,17 +1,20 @@
-## Practica 02: Repaso de Java Script para programación Backend
+## Práctica 02: Repaso de Java Script para programación Backend
 ---
 <p align="justify">
-En la siguiente práctica se realizaran pequeños ejercicios de repaso para comprender la sitaxis de Java Script para el manejo de variables, procesos y memoria en el contexto del desarrollo web orientado a servicios.
+En la siguiente práctica se realizarán pequeños ejercicios de repaso para comprender la sintaxis de Java Script para el manejo de variables, procesos y memoria en el contexto del desarrollo web orientado a servicios.
 </p>
 
 ---
-#### Consideraciones
+#### Consideraciones:
 
 <p align="justify">
-Esta practica sera desarrollada con estructura de ramales, para que el estudiante comience con la manipulacion correcta de ramas en el contexto de control de versiones y desarrollo colaborativo utilizando Git y GitHub.
-</p>
+Esta práctica será desarrollada con estructura de ramales, para el estudiante comience con la manipulación correcta de ramas en el contexto de control de versiones y desarrollo colaborativo utilizando Git y GitHub.</p>
 
-| No. | Descripción | Potenciador | Estatus |
+
+### Tabla de Ejercicios
+
+|No.|Descripción|Potenciador|Estatus|
 |---|---|---|---|
-| 1. | Declaración de variables | 1 | Finalizado |
-| 2. | Tipo de datos | 7 | Finalizado |
+|1.| Declaración de Varibles| 7 | ✅ Finalizada |
+|2.| Tipos de Datos| 7 | ✅ Finalizada |
+|3.| Funciones | 7 | ✅ Finalizada |
