@@ -16,11 +16,11 @@ console.log("%cEjercicio 01: Declaración de Variables ",style_console);
 
 console.warn("-- Declaración de Variables utilizando el prefijo VAR --")
 
-var miNombre = "Marco A.";
+var miNombre = "Fernando M. P.";
 console.log("El valor almacenado en la variable miNombres es: ",miNombre);
 
 //Modificar el valor de la variable
-miNombre = "Marco Antonio";
+miNombre = "Fernando";
 console.log("El nuevo valor de la variable miNombre es: ",miNombre);
 
 var misApellidos; 
@@ -32,7 +32,7 @@ console.warn("-- Declaración de una Constante utilizando el prefijo CONST --")
 // 2. Utilizando la palabra reservada CONST
 // Una constante a diferencia de una variable es que su valor no cambiará durante toda la ejecución del programa, y al momento de ser declarada esta deberá se inicializada obligatoriamente.
 
-const miMatricula = "24XXXX";
+const miMatricula = "240161";
 console.log("El valor de la constante miMatricula es: ", miMatricula);
 
 // Intentando modificar el valor de la constante
@@ -44,7 +44,7 @@ console.log("El valor de la constante miMatricula es: ", miMatricula);*/
 // 3. Utilizando la palabra reservada LET
 // LET es el prefijo utilizado muy similar a VAR con la diferencia en su alcance (SCOPE), aquellas declaradas con VAR tienen un alcance globlal en el código no importando bloques o secciones, mientras que las variables declaradas con let solo existiran dentro del bloque o función.
 console.warn("-- Declaración de una Constante utilizando el prefijo LET --")
-var fechaNacimiento = new Date("1989-10-16");
+var fechaNacimiento = new Date("2006-06-01");
 var miEdad = calcularEdad(fechaNacimiento);
 console.log("Tu edad es de: ",miEdad, " años.");
 
@@ -85,7 +85,7 @@ function calcularEdad(fechaNacimiento)
 
 // Interpolación de Datos
 // $ {}  `
-misApellidos="Ramírez Hernández";
+misApellidos="Miguel Perez";
 console.log(`Hola, ${miNombre} ${misApellidos} actualmente tienes ${miEdad} años.`);
 
-// Autor: Su nombre aquí.
+// Autor: Fernando Miguel Pérez

@@ -27,9 +27,9 @@ function saludar_usuario(username, gender)
 }
 
 console.warn("2. Funciones sin valor de retorno, con parámetros de entrada");
-saludar_usuario("Marco", "H");
+saludar_usuario("Fernando", "H");
 console.log("----------------------------------------------------");
-saludar_usuario("Patricia", "M");
+saludar_usuario("Dania", "M");
 console.log("----------------------------------------------------");
 saludar_usuario("Guadalupe", null);
 
@@ -97,7 +97,7 @@ loginStatus= login("admin", "1234567890");
 console.log(`${loginStatus ? 'El usuario admin se ha logeado satisfactoriamente' : 'Hubo un error en el login del usuario admin'}`);
 
 //Test 4  - Usuario y Contraseña correctos
-console.log("Test 4 -  usuario: marcor , password: mipassword");
+console.log("Test 4 -  usuario: FernandoM , password: F303777&");
 loginStatus= login("marcor", "mipassword");
 console.log(`${loginStatus ? 'El usuario admin se ha logeado satisfactoriamente' : 'Hubo un error en el login del usuario admin'}`);
 
@@ -173,7 +173,7 @@ callback(response);
 };
 
 // Invocación de una función callback
-recoverPassword("marco@gmail.com", 
+recoverPassword("fermipe.303@gmail.com", 
     function(systemResponse){
         console.log("Respuesta del sistema: ");
         console.log(systemResponse.message);
